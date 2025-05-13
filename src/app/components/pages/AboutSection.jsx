@@ -177,7 +177,7 @@ const AboutSection = () => {
             <select
               value={tab}
               onChange={(e) => handleTabChange(e.target.value)}
-              className="w-full p-2 bg-[var(--color-dark-bg)] text-white rounded-md"
+              className="w-full p-2 bg-[var(--color-dark-bg)] border-2 border-[var(--color-card-bg)] text-white rounded-md"
             >
               {TAB_DATA.map((tabOption) => (
                 <option key={tabOption.id} value={tabOption.id}>

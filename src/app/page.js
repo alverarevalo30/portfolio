@@ -1,3 +1,4 @@
+"use client";
 import HeroSection from "./components/pages/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/pages/AboutSection";
@@ -7,9 +8,10 @@ import FooterSection from "./components/pages/FooterSection";
 import AchievementsSection from "./components/pages/AchievementsSection";
 import BackToTop from "./components/BackToTop";
 import { Toaster } from "react-hot-toast";
-
+import { useState } from "react";
 
 export default function Home() {
+  const [selectedProject, setSelectedProject] = useState(null);
   return (
     <>
       <div className="flex min-h-screen flex-col">
@@ -18,12 +20,15 @@ export default function Home() {
           <HeroSection />
           <AchievementsSection />
           <AboutSection />
-          <ProjectSection />
+          <ProjectSection
+            selectedProject={selectedProject}
+            setSelectedProject={setSelectedProject}
+          />
           <EmailSection />
         </div>
         <FooterSection />
       </div>
-      <BackToTop />
+      {!selectedProject && <BackToTop />}
       <Toaster />
     </>
   );

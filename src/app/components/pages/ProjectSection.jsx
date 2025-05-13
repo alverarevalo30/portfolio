@@ -275,11 +275,10 @@ const projectsData = [
   },
 ];
 
-const ProjectSection = () => {
+const ProjectSection = ({ selectedProject, setSelectedProject }) => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref);
-  const [selectedProject, setSelectedProject] = useState(null);
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
