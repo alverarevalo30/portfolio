@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import MyLogo from "../../../public/Logo-gradient.svg";
+import Image from "next/image";
 
 const navLinks = [
   {
@@ -30,7 +32,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          AA
+          <Image src={MyLogo} alt="Github Icon" width={40} height={40} />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
