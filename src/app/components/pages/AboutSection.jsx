@@ -9,18 +9,125 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="grid grid-cols-2 gap-x-6 list-disc pl-4 space-y-1">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>React</li>
-        <li>Tailwind CSS</li>
-        <li>Express</li>
-        <li>MySQL</li>
-        <li>PostgreSQL</li>
-        <li>Java</li>
-        <li>Kotlin</li>
-        <li>Firebase</li>
+      <ul className="grid grid-cols-2 gap-x-6 list-disc pl-4 space-y-2">
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/html.svg"
+            alt="HTML Logo"
+            width={16}
+            height={16}
+          />
+          <span>HTML</span>
+        </li>
+
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/html.svg"
+            alt="HTML Logo"
+            width={16}
+            height={16}
+          />
+          <span>HTML</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/css.svg"
+            alt="CSS Logo"
+            width={16}
+            height={16}
+          />
+          <span>CSS</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/javascript.svg"
+            alt="JavaScript Logo"
+            width={16}
+            height={16}
+          />
+          <span>JavaScript</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/tailwindcss.svg"
+            alt="Tailwind CSS Logo"
+            width={16}
+            height={16}
+          />
+          <span>Tailwind CSS</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/react.svg"
+            alt="React Logo"
+            width={16}
+            height={16}
+          />
+          <span>React</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/express.svg"
+            alt="Express Logo"
+            width={16}
+            height={16}
+          />
+          <span>Express</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/php.svg"
+            alt="PHP Logo"
+            width={16}
+            height={16}
+          />
+          <span>PHP</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/java.svg"
+            alt="Java Logo"
+            width={16}
+            height={16}
+          />
+          <span>Java</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/kotlin.svg"
+            alt="Kotlin Logo"
+            width={16}
+            height={16}
+          />
+          <span>Kotlin</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/mysql.svg"
+            alt="MySQL Logo"
+            width={16}
+            height={16}
+          />
+          <span>MySQL</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/mongodb.svg"
+            alt="MongoDB Logo"
+            width={16}
+            height={16}
+          />
+          <span>MongoDB</span>
+        </li>
+        <li className="flex items-center space-x-2">
+          <Image
+            src="/images/icons/firebase.svg"
+            alt="Firebase Logo"
+            width={16}
+            height={16}
+          />
+          <span>Firebase</span>
+        </li>
       </ul>
     ),
   },
