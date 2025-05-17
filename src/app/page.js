@@ -10,6 +10,7 @@ import BackToTop from "./components/BackToTop";
 import { Toaster } from "react-hot-toast";
 import { useState } from "react";
 
+
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
