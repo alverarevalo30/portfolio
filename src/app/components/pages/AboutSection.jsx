@@ -19,16 +19,6 @@ const TAB_DATA = [
           />
           <span>HTML</span>
         </li>
-
-        <li className="flex items-center space-x-2">
-          <Image
-            src="/images/icons/html.svg"
-            alt="HTML Logo"
-            width={16}
-            height={16}
-          />
-          <span>HTML</span>
-        </li>
         <li className="flex items-center space-x-2">
           <Image
             src="/images/icons/css.svg"
