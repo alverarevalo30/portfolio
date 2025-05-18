@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio - Alver Arevalo",
+  title: "Alver Arevalo",
   description: "Portfolio using next app",
   icons: {
     icon: "/Logo-gradient.svg",

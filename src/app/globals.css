@@ -2,11 +2,11 @@
 
 /* Set default background and foreground colors */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 
-  --color-primary: #8b5cf6; /* Tailwind's purple-500 */
-  --color-secondary: #ec4899; /* Tailwind's pink-500 */
+  --color-primary: #7c3aed; /* Tailwind's purple-500 */
+  --color-secondary: #db2777; /* Tailwind's pink-500 */
   --color-muted: #ADB7BE; /* Light gray for secondary text */
 
   --color-dark-bg: #121212; /* Main dark background */
@@ -37,20 +37,19 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* Dark mode customizations */
+/* Dark mode customizations
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
 
-    --color-primary: #7c3aed; /* Darker purple */
-    --color-secondary: #db2777; /* Darker pink */
-    --color-muted: #94a3b8; /* Slightly lighter slate (optional) */
-    /* Missing Variables in Dark Mode */
-    --color-overlay: rgba(0, 0, 0, 0.7); /* Darker overlay */
-    --color-muted-light: #94a3b8; /* Lighter muted text for dark mode */
+    --color-primary: #7c3aed; 
+    --color-secondary: #db2777; 
+    --color-muted: #94a3b8; 
+    --color-overlay: rgba(0, 0, 0, 0.7); 
+    --color-muted-light: #94a3b8; 
   }
-}
+} */
 
 /* General body styles */
 body {
