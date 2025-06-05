@@ -11,9 +11,9 @@ const HeroSection = () => {
     <section className="py-8 px-4 sm:py-12 md:py-24 xl:px-24 xl:py-24 ">
       <div className="grid grid-cols-1 md:grid-cols-12">
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          /* initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }} */
           className="col-span-8 place-self-center text-center md:text-left md:justify-self-start mb-4 md:mb-0"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl font-bold">
@@ -77,9 +77,9 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
+          /* initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }} */
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div
@@ -92,6 +92,7 @@ const HeroSection = () => {
               className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={450}
               height={450}
+              priority
             />
           </div>
         </motion.div>

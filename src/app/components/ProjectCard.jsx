@@ -16,7 +16,7 @@ const ProjectCard = ({ imgUrl, title, shortDescription, onClick }) => {
         }}
       ></div>
       <div className="flex flex-col text-white rounded-b-xl bg-[var(--color-card-bg)] py-6 px-4 flex-1">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
+        <h2 className="text-xl font-semibold mb-2">{title}</h2>
         <p className="text-[var(--color-muted)]">{shortDescription}</p>
       </div>
     </div>

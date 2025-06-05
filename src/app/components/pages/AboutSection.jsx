@@ -237,8 +237,9 @@ const AboutSection = () => {
             <Image
               src="/images/Section-image2.png"
               alt="Section Image"
-              width={500}
-              height={500}
+              width={450}
+              height={450}
+              sizes="(max-width: 768px) 350px, (max-width: 1024px) 400px, 450px"
               className="object-contain"
             />
           </div>
@@ -271,17 +272,20 @@ const AboutSection = () => {
 
           {/* Dropdown for small screens */}
           <div className="block xs:hidden mt-8">
-            <select
-              value={tab}
-              onChange={(e) => handleTabChange(e.target.value)}
-              className="w-full p-2 bg-[var(--color-dark-bg)] border-2 border-[var(--color-card-bg)] text-white rounded-md"
-            >
-              {TAB_DATA.map((tabOption) => (
-                <option key={tabOption.id} value={tabOption.id}>
-                  {tabOption.title}
-                </option>
-              ))}
-            </select>
+            <label className="sr-only">
+              Select About Tab
+              <select
+                value={tab}
+                onChange={(e) => handleTabChange(e.target.value)}
+                className="w-full p-2 bg-[var(--color-dark-bg)] border-2 border-[var(--color-card-bg)] text-white rounded-md"
+              >
+                {TAB_DATA.map((tabOption) => (
+                  <option key={tabOption.id} value={tabOption.id}>
+                    {tabOption.title}
+                  </option>
+                ))}
+              </select>
+            </label>
           </div>
 
           <div className="hidden xs:flex flex-row justify-start mt-8">
