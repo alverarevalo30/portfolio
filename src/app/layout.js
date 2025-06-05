@@ -13,10 +13,47 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Alver Arevalo",
-  description: "Portfolio using next app",
+  title: "Alver Manabat",
+  description:
+    "Frontend Developer Portfolio showcasing projects and skills.",
+  keywords: [
+    "Frontend Developer",
+    "ReactJS",
+    "Next.js",
+    "Web Developer Portfolio",
+    "Alver Manabat",
+    "JavaScript",
+    "Tailwind CSS",
+  ],
+  authors: [{ name: "Alver Manabat" }],
+  creator: "Alver Manabat",
   icons: {
     icon: "/Logo-gradient.svg",
+  },
+  openGraph: {
+    title: "Alver Manabat | Frontend Developer Portfolio",
+    description:
+      "A modern web portfolio built with Next.js showcasing projects and UI skills.",
+    url: "https://alverarevalo.vercel.app",
+    siteName: "Alver Manabat Portfolio",
+    images: [
+      {
+        url: "/preview-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Alver Manabat Portfolio Screenshot",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alver Manabat | Frontend Developer Portfolio",
+    description:
+      "Check out Alver Manabat's web developer portfolio built using Next.js.",
+    images: ["/preview-image.png"],
+    creator: "@alver_arevalo", 
   },
 };
 
