@@ -8,6 +8,60 @@ import ProjectModal from "../ProjectModal";
 const projectsData = [
   {
     id: 1,
+    title: "Chicken Dinner Studios",
+    description:
+      "Chicken Dinner Studios is a creative agency website built in Framer, showcasing a dynamic blend of strategy, design, and interactivity. As a freelance creative hub, the site emphasizes impactful storytelling, smooth user experience, and visually engaging layouts. The project demonstrates the potential of no-code tools in delivering professional-grade digital experiences tailored for clients and collaborators alike.",
+    shortDescription: "Creative Agency Website Built with Framer",
+    technologies: [
+      { name: "Framer", icon: "/images/icons/framer.svg" },
+      { name: "Figma", icon: "/images/icons/figma.svg" },
+    ],
+    image: "/images/projects/CDS1.png",
+    tag: ["All", "Web"],
+    images: [
+      "CDS1.png",
+      "CDS2.png",
+      "CDS3.png",
+      "CDS4.png",
+      "CDS5.png",
+      "CDS6.png",
+      "CDS7.png",
+      "CDS8.png",
+      "CDS9.png",
+      "CDS10.png",
+      "CDS11.png",
+      "CDS12.png",
+      "CDS13.png",
+      "CDS14.png",
+      "CDS15.png",
+      "CDS16.png",
+      "CDS17.png",
+      "CDS18.png",
+      "CDS19.png",
+      "CDS20.png",
+    ],
+    gitUrl: null,
+    previewUrl: "https://chickendinnerstudios.com/",
+  },
+  {
+    id: 2,
+    title: "Foodie",
+    description:
+      "Foodie is a responsive landing page that showcases a modern food delivery concept. Built with React, Vite, and Tailwind CSS, the site highlights a curated range of food products, engaging testimonials, and integrated download buttons for the App Store and Google Play. Designed for convenience and visual appeal, Foodie emphasizes fast, fresh delivery and a user-friendly experience across devices. It effectively demonstrates how digital presence can elevate brand credibility and customer engagement in the food service space.",
+    shortDescription: "Food Delivery Page with Products and App Links",
+    technologies: [
+      { name: "React", icon: "/images/icons/react.svg" },
+      { name: "Vite", icon: "/images/icons/vite.svg" },
+      { name: "Tailwind CSS", icon: "/images/icons/tailwindcss.svg" },
+    ],
+    image: "/images/projects/Foodie1.png",
+    tag: ["All", "Web"],
+    images: ["Foodie1.png", "Foodie2.png", "Foodie3.png", "Foodie4.png"],
+    gitUrl: "https://github.com/alverarevalo30/Foodie",
+    previewUrl: "https://foodie-alverarevalo.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Chatter",
     description:
       "Chatter is a full-stack real-time chat application designed for seamless and secure communication. It supports instant messaging, emoji integration, and live presence updates using Socket.IO. Built with modern web technologies, Chatter features responsive UI components, user authentication, and media handling, making it an ideal platform for both casual and team-based conversations.",
@@ -38,7 +92,7 @@ const projectsData = [
     previewUrl: null,
   },
   {
-    id: 2,
+    id: 5,
     title: "Makeup by Alliah",
     description:
       "A personal portfolio website for Alliah showcasing her skills, projects, client feedback, and contact details. The site highlights her work and experience through a clean, responsive layout, providing visitors with an engaging overview of her creative and professional journey.",
@@ -61,7 +115,7 @@ const projectsData = [
     previewUrl: "https://alverarevalo30.github.io/makeupby.alliah/",
   },
   {
-    id: 3,
+    id: 6,
     title: "Sanvicare Inventory Management System",
     description:
       "A mobile-based inventory monitoring system for Sanvicare Medical Supply Store, designed to track stock levels in real time and improve inventory accuracy. The app enables users to monitor items, receive low-stock alerts, and generate inventory reports, with built-in role-based access control for secure and efficient inventory management in healthcare settings.",
@@ -107,7 +161,7 @@ const projectsData = [
     previewUrl: null,
   },
   {
-    id: 4,
+    id: 7,
     title: "CMS Front-End",
     description:
       "A responsive content management system (CMS) front-end for the Power Supply Procurement and Governance Toolkit, designed to help ERC personnel manage content efficiently. The CMS provides a user-friendly interface for publishing and organizing information, supporting regulatory transparency and streamlined content updates.",
@@ -182,7 +236,7 @@ const projectsData = [
     previewUrl: "https://example.com",
   }, */
   {
-    id: 5,
+    id: 8,
     title: "Virtual BulSU",
     description:
       "Virtual Bulsu is an immersive virtual tour platform for Bulacan State University, featuring 360-degree campus views, interactive maps, voice narration, and real-time announcements. It offers an engaging and informative experience for students, visitors, and stakeholders.",
@@ -222,7 +276,7 @@ const projectsData = [
     previewUrl: "https://vbulsu.slarenasitsolutions.com/",
   },
   {
-    id: 6,
+    id: 9,
     title: "Taskmeter",
     description:
       "TaskMeter is a work management platform that helps students organize tasks, track progress, and collaborate in groups using dashboards and progress indicators. It also enables professors to monitor student activity and access submitted outputs.",
@@ -251,7 +305,7 @@ const projectsData = [
     previewUrl: null,
   },
   {
-    id: 7,
+    id: 10,
     title: "AquaFlask Inventory Management System",
     description:
       "The AquaFlask Inventory Management System streamlines stock tracking and product management for staff, with features for updating quantities, adding items, and recording user actions for accountability. This system is for testing purposes only and does not intend to infringe on AquaFlask's copyrights",
