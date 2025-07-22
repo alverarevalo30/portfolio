@@ -93,6 +93,7 @@ const HeroSection = () => {
               width={450}
               height={450}
               priority
+              fetchPriority="high"
             />
           </div>
         </motion.div>

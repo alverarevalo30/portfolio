@@ -50,7 +50,7 @@ const EmailSection = () => {
       id="contact"
     >
       <div className="mb-8 md:mb-0">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h2 className="text-xl font-bold text-white my-2">Let's Connect</h2>
         <p className="text-[var(--color-muted)] mb-4 max-w-md">
           I'm currently open to new opportunities and collaborations. Feel free
           to reach out — whether you have a question, a project in mind, or just
